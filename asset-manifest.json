@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AMIN-SENTIMATIC/static/css/main.2c1e3320.css",
+    "main.js": "/AMIN-SENTIMATIC/static/js/main.ce1dc47f.js",
+    "index.html": "/AMIN-SENTIMATIC/index.html",
+    "main.2c1e3320.css.map": "/AMIN-SENTIMATIC/static/css/main.2c1e3320.css.map",
+    "main.ce1dc47f.js.map": "/AMIN-SENTIMATIC/static/js/main.ce1dc47f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c1e3320.css",
+    "static/js/main.ce1dc47f.js"
+  ]
+}
