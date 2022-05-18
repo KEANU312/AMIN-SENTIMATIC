@@ -1,0 +1,73 @@
+.cc-map-container {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cc-map-container:last-child {
+  margin-bottom: 40px;
+}
+
+.cc-img {
+  align-self: center;
+  width: 500px;
+  height: 300px;
+}
+
+.main-cc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-name-cc {
+  margin: 10px 0;
+  font-size: 1.6rem;
+  font-family: "Anton";
+  letter-spacing: 1.2px;
+}
+
+.course-link-cc {
+  color: blue;
+  text-decoration: none;
+  text-decoration: underline;
+  font-family: "Anton";
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+
+.course-review-cc {
+  font-size: 1.2rem;
+  font-family: serif, "Times New Roman", Times;
+}
+
+.num-p {
+  font-size: 1.4rem;
+  font-family: "Anton";
+  color: blue;
+  //   background-color: blue;
+  width: fit-content;
+  //   padding: 2px 20px;
+}
+
+@media screen and (max-width: 866px) {
+  .cc-img {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .cc-img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .course-name-cc {
+    margin: 10px 0;
+    font-size: 1.4rem;
+    font-family: "Anton";
+    letter-spacing: 1.2px;
+  }
+}

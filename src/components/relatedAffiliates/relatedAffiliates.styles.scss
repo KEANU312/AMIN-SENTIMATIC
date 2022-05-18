@@ -1,0 +1,74 @@
+.related-main-container {
+  border-top: 8px solid blue;
+  border-bottom: 8px solid blue;
+  width: 100%;
+  margin-top: 20px;
+  height: fit-content;
+}
+
+.related-post-p {
+  text-align: center;
+  font-family: "Anton";
+  font-size: 1.2rem;
+}
+
+.rr-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // border: blue solid 2px;
+  background-color: rgb(239, 235, 235);
+  margin-bottom: 20px;
+}
+
+.rr-image-container:first-of-type {
+  margin-top: 5px;
+}
+// .rr-image-container:last-of-type {
+//   margin-bottom: 0;
+// }
+
+.rr-link {
+  text-decoration: none;
+  color: blue;
+}
+.rr-img {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 5px;
+}
+
+.rr-course-name {
+  font-weight: bold;
+}
+@media screen and (max-width: 866px) {
+  .rr-img {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .related-main-container {
+    width: 100%;
+  }
+  .rr-img {
+    height: 100px;
+    width: 100%;
+  }
+  .related-post-p {
+    font-size: 1.4rem;
+  }
+  .rr-image-container {
+    width: 50%;
+  }
+
+  .rd-course-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rr-link {
+    width: 100%;
+  }
+}

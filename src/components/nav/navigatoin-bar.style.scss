@@ -1,0 +1,170 @@
+.nav-container {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Koulen";
+  align-items: center;
+}
+.logo-container-link:visited {
+  color: white;
+  text-decoration: none;
+}
+.logo-container-link {
+  text-decoration: none;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+
+// .nav-menu:last-child {
+//   margin-right: 20px;
+// }
+
+.fa-nav-mag {
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding-top: 5px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  margin-left: 20px;
+}
+
+.favicons {
+  font-size: 1.8rem;
+  margin-left: 4px;
+}
+
+.icon-smile {
+  margin-right: 4px;
+}
+
+.logo-small {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav-container {
+  display: grid;
+  height: 100%;
+}
+.search-barcontainer-nav {
+  justify-self: end;
+}
+
+.search-barcontainer-nav-none {
+  display: none;
+}
+
+.nav-link-active {
+  margin-top: 4px;
+  border-bottom: white 2px solid;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+.nav-footer {
+  position: absolute;
+  // bottom: -200px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.outlet-bottom {
+  margin-bottom: 250px;
+}
+
+@media screen and (max-width: 866px) {
+  // .logo {
+  //   display: none;
+  // }
+  // .logo-small {
+  //   display: block;
+  //   font-size: 2rem;
+  //   margin-left: 5px;
+  // }
+  // .favicons {
+  //   font-size: 1rem;
+  // }
+
+  .nav-link {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+
+  // .nav-link {
+  // }
+  // .nav-menu:last-child {
+  //   margin-right: 1px;
+  // }
+  .fa-nav-mag {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+
+  .nav-footer {
+    position: absolute;
+    // bottom: -80px;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-link {
+    font-size: 1.6rem;
+  }
+
+  .logo-small {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+  }
+  .favicons {
+    font-size: 1.8rem;
+    margin-left: 4px;
+  }
+  // .nav-menu {
+  //   margin-bottom: 10px;
+  // }
+  .search-barcontainer-nav {
+    justify-self: start;
+    width: 100%;
+  }
+  .nav-footer {
+    position: absolute;
+    // bottom: -300px;
+    bottom: 0px;
+    width: 100%;
+  }
+}
