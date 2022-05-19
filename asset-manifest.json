@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AMIN-SENTIMATIC/static/css/main.6a34356b.css",
+    "main.css": "/AMIN-SENTIMATIC/static/css/main.8c0bdf4f.css",
     "main.js": "/AMIN-SENTIMATIC/static/js/main.f4c07daf.js",
     "index.html": "/AMIN-SENTIMATIC/index.html",
-    "main.6a34356b.css.map": "/AMIN-SENTIMATIC/static/css/main.6a34356b.css.map",
+    "main.8c0bdf4f.css.map": "/AMIN-SENTIMATIC/static/css/main.8c0bdf4f.css.map",
     "main.f4c07daf.js.map": "/AMIN-SENTIMATIC/static/js/main.f4c07daf.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a34356b.css",
+    "static/css/main.8c0bdf4f.css",
     "static/js/main.f4c07daf.js"
   ]
 }
