@@ -1,2 +1,9 @@
 About is going to be about how the type route works so change the tilte 
 7toIwiBvFZeELDd9
+vbP&Oj6H7vtBB(1Q6bde
+the search button on the searchbar needs a function
+✅
+1. Create filter for searching  // create filter for related bar 
+2. Create other affiliate pages 
+2. Create text file upload
+3. Create csv upload

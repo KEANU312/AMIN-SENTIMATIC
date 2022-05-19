@@ -41,9 +41,19 @@
 .rr-course-name {
   font-weight: bold;
 }
+@media screen and (max-width: 1100px) {
+  .rr-img {
+    height: 120px;
+  }
+}
 @media screen and (max-width: 866px) {
   .rr-img {
     height: 100px;
+  }
+}
+@media screen and (max-width: 666px) {
+  .rr-img {
+    height: 90px;
   }
 }
 

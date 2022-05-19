@@ -10,9 +10,9 @@ export const MappedAffiliate = ({
   explainPara,
   testList,
 }) => {
-  useEffect(() => {
-    console.log(window.innerWidth);
-  }, []);
+  // useEffect(() => {
+  //   console.log(window.innerWidth);
+  // }, []);
 
   return (
     <div className="main-howTo-mainContianer">

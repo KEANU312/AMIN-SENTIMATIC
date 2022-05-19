@@ -124,11 +124,11 @@ export const Paragraph = () => {
           </div>
         </div>
 
-        <button className="para-link-button">
-          <Link to="/howTo" className="para-link-text">
+        <Link to="/howTo" className="para-link-text">
+          <button className="para-link-button">
             Learn How to build Websites like this
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
     </div>
   );
