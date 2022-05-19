@@ -7,34 +7,6 @@ export const AffiliateRoutes = ({
   headerTitleFilter,
   explainParaHowFilter,
 }) => {
-  //   const testMain = MainAffiliateLinks.map(
-  //     ({ headerTitle, authorNmae, mappedDate, explainParaHow, testList }) => {
-  //   const testDiv = (
-  //     <div>
-  //       <MappedAffiliate
-  //         headerTitle={headerTitle}
-  //         authorNmae={authorNmae}
-  //         mappedDate={mappedDate}
-  //         explainPara={explainParaHow}
-  //         testList={testList}
-  //       />
-  //     </div>
-  //   );
-  //       if (headerTitleFilter === headerTitle) {
-  //         return (
-  //           <div>
-  //             <MappedAffiliate
-  //               headerTitle={headerTitle}
-  //               authorNmae={authorNmae}
-  //               mappedDate={mappedDate}
-  //               explainPara={explainParaHow}
-  //               testList={testList}
-  //             />
-  //           </div>
-  //         );
-  //       }
-  //     }
-  //   );
   const forMain = () => {
     for (let i of MainAffiliateLinks) {
       if (
@@ -63,38 +35,6 @@ export const AffiliateRoutes = ({
       }
     }
   };
-
-  //   console.log(testMain.length);
-  //   useEffect(() => {
-  //     let headerTitle1 = "hkjhk";
-  // const testMain = MainAffiliateLinks.map(
-  //   ({ headerTitle, authorNmae, mappedDate, explainParaHow, testList }) => {
-  //     headerTitle1 = headerTitle;
-  //     const testDiv = (
-  //       <div>
-  //         <MappedAffiliate
-  //           headerTitle={headerTitle}
-  //           authorNmae={authorNmae}
-  //           mappedDate={mappedDate}
-  //           explainPara={explainParaHow}
-  //           testList={testList}
-  //         />
-  //       </div>
-  //     );
-  //     return (
-  //       <div>
-  //         <MappedAffiliate
-  //           headerTitle={headerTitle}
-  //           authorNmae={authorNmae}
-  //           mappedDate={mappedDate}
-  //           explainPara={explainParaHow}
-  //           testList={testList}
-  //         />
-  //       </div>
-  //     );
-  //   }
-  // );
-  //   }, []);
 
   return forMain();
 };

@@ -13,39 +13,6 @@ import { MappedAffiliate } from "./components/mappedAffiliate/mapped.affiliate.c
 import { AffiliateRoutes } from "./routes/AffiliateRoutes/affiliateRoutes/affiliateroutes.components";
 
 function App() {
-  // useEffect(() => {
-  //   let headerTitle1 = "hkjhk";
-  //   console.log(headerTitle1);
-  //   const testMain = MainAffiliateLinks.map(
-  //     ({ headerTitle, authorNmae, mappedDate, explainParaHow, testList }) => {
-  //       headerTitle1 = headerTitle;
-  //       const testDiv = (
-  //         <div>
-  //           <MappedAffiliate
-  //             headerTitle={headerTitle}
-  //             authorNmae={authorNmae}
-  //             mappedDate={mappedDate}
-  //             explainPara={explainParaHow}
-  //             testList={testList}
-  //           />
-  //         </div>
-  //       );
-  //       return (
-  //         <div>
-  //           <MappedAffiliate
-  //             headerTitle={headerTitle}
-  //             authorNmae={authorNmae}
-  //             mappedDate={mappedDate}
-  //             explainPara={explainParaHow}
-  //             testList={testList}
-  //           />
-  //         </div>
-  //       );
-  //     }
-  //   );
-  //   console.log(headerTitle1 + "   test");
-  // }, []);
-
   return (
     <div className="App">
       <ScrollToTop />
